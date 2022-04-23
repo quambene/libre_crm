@@ -57,7 +57,6 @@
                     </db:columns>
                 </db:table-representation>
                 <db:table-representation db:name="contact" />
-                <db:table-representation db:name="customer_status" />
                 <db:table-representation db:name="employee">
                     <db:columns>
                         <db:column db:name="ID" db:style-name="co1" db:default-cell-style-name="ce1" />
@@ -69,12 +68,7 @@
                         <db:column db:name="title" db:style-name="co1" db:default-cell-style-name="ce1" />
                     </db:columns>
                 </db:table-representation>
-                <db:table-representation db:name="lead">
-                    <db:columns>
-                        <db:column db:name="task_status_id" db:type-name="string" db:default-value="0" db:style-name="co1" db:default-cell-style-name="ce1" />
-                    </db:columns>
-                </db:table-representation>
-                <db:table-representation db:name="lead_status" />
+                <db:table-representation db:name="lead" />
                 <db:table-representation db:name="status" />
             </db:table-representations>
         </office:database>
