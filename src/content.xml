@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<office:document-content xmlns:db="urn:oasis:names:tc:opendocument:xmlns:database:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:xforms="http://www.w3.org/2002/xforms" office:version="1.3">
+    <office:scripts />
+    <office:font-face-decls>
+        <style:font-face style:name="F" svg:font-family="" />
+    </office:font-face-decls>
+    <office:automatic-styles>
+        <style:style style:name="co1" style:family="table-column" />
+        <style:style style:name="ce1" style:family="table-cell">
+            <style:paragraph-properties fo:text-align="start" />
+        </style:style>
+    </office:automatic-styles>
+    <office:body>
+        <office:database>
+            <db:data-source>
+                <db:connection-data>
+                    <db:connection-resource xlink:href="sdbc:embedded:hsqldb" xlink:type="simple" />
+                    <db:login db:is-password-required="false" />
+                </db:connection-data>
+                <db:driver-settings db:system-driver-settings="" db:base-dn="" db:parameter-name-substitution="false" />
+                <db:application-connection-settings db:is-table-name-length-limited="false" db:append-table-alias-name="false" db:max-row-count="100">
+                    <db:table-filter>
+                        <db:table-include-filter>
+                            <db:table-filter-pattern>%</db:table-filter-pattern>
+                        </db:table-include-filter>
+                    </db:table-filter>
+                    <db:data-source-settings>
+                        <db:data-source-setting db:data-source-setting-is-list="false" db:data-source-setting-name="Type" db:data-source-setting-type="string">
+                            <db:data-source-setting-value>simple</db:data-source-setting-value>
+                        </db:data-source-setting>
+                    </db:data-source-settings>
+                </db:application-connection-settings>
+            </db:data-source>
+            <db:forms>
+                <db:component db:name="company_form" xlink:href="forms/Obj101" xlink:type="simple" db:as-template="false" />
+                <db:component db:name="contact_form" xlink:href="forms/Obj83" xlink:type="simple" db:as-template="false" />
+                <db:component db:name="employee_form" xlink:href="forms/Obj103" xlink:type="simple" db:as-template="false" />
+                <db:component db:name="lead_form" xlink:href="forms/Obj82" xlink:type="simple" db:as-template="false" />
+            </db:forms>
+            <db:queries>
+                <db:query db:name="company_query" db:command="SELECT &quot;ID&quot;, &quot;industry&quot;, &quot;sub-industry&quot;, &quot;name&quot;, &quot;address&quot;, &quot;website&quot;, &quot;email&quot;, &quot;phone&quot; FROM &quot;company&quot; ORDER BY &quot;name&quot; ASC" />
+                <db:query db:name="contact_query" db:command="SELECT &quot;contact&quot;.&quot;ID&quot; AS &quot;contact_id&quot;, &quot;contact&quot;.&quot;name&quot; AS &quot;contact_name&quot;, &quot;contact&quot;.&quot;department&quot;, &quot;contact&quot;.&quot;title&quot;, &quot;contact&quot;.&quot;website&quot;, &quot;contact&quot;.&quot;email&quot;, &quot;contact&quot;.&quot;phone&quot;, &quot;company&quot;.&quot;ID&quot; AS &quot;company_id&quot;, &quot;company&quot;.&quot;name&quot; AS &quot;company_name&quot;, &quot;company&quot;.&quot;industry&quot;, &quot;company&quot;.&quot;sub-industry&quot; FROM &quot;contact&quot; LEFT JOIN &quot;company&quot; ON &quot;contact&quot;.&quot;company_id&quot; = &quot;company&quot;.&quot;ID&quot; ORDER BY &quot;contact&quot;.&quot;name&quot; ASC" />
+                <db:query db:name="employee_query" db:command="SELECT &quot;ID&quot;, &quot;employee_number&quot;, &quot;name&quot;, &quot;department&quot;, &quot;title&quot;, &quot;email&quot;, &quot;phone&quot; FROM &quot;employee&quot;" />
+                <db:query db:name="lead_query" db:command="SELECT &quot;lead&quot;.&quot;ID&quot; AS &quot;lead_id&quot;, &quot;company&quot;.&quot;ID&quot; AS &quot;company_id&quot;, &quot;company&quot;.&quot;name&quot; AS &quot;company_name&quot;, &quot;company&quot;.&quot;industry&quot;, &quot;company&quot;.&quot;sub-industry&quot;, &quot;contact&quot;.&quot;ID&quot; AS &quot;contact_id&quot;, &quot;contact&quot;.&quot;name&quot; AS &quot;contact_name&quot;, &quot;contact&quot;.&quot;department&quot; AS &quot;contact_department&quot;, &quot;contact&quot;.&quot;title&quot; AS &quot;contact_title&quot;, &quot;employee&quot;.&quot;ID&quot; AS &quot;assignee_id&quot;, &quot;employee&quot;.&quot;name&quot; AS &quot;assignee_name&quot;, &quot;employee&quot;.&quot;department&quot; AS &quot;assignee_department&quot;, &quot;employee&quot;.&quot;title&quot; AS &quot;assignee_title&quot;, &quot;status&quot;.&quot;ID&quot; AS &quot;status_id&quot;, &quot;status&quot;.&quot;name&quot; AS &quot;status&quot; FROM &quot;lead&quot; LEFT JOIN &quot;company&quot; ON &quot;lead&quot;.&quot;company_id&quot; = &quot;company&quot;.&quot;ID&quot; LEFT JOIN &quot;contact&quot; ON &quot;lead&quot;.&quot;contact_id&quot; = &quot;contact&quot;.&quot;ID&quot; LEFT JOIN &quot;employee&quot; ON &quot;lead&quot;.&quot;assignee_id&quot; = &quot;employee&quot;.&quot;ID&quot; INNER JOIN &quot;status&quot; ON &quot;lead&quot;.&quot;status_id&quot; = &quot;status&quot;.&quot;ID&quot; ORDER BY &quot;status&quot;.&quot;ID&quot; ASC" />
+            </db:queries>
+            <db:table-representations>
+                <db:table-representation db:name="company">
+                    <db:columns>
+                        <db:column db:name="ID" db:style-name="co1" db:default-cell-style-name="ce1" />
+                        <db:column db:name="address" db:style-name="co1" db:default-cell-style-name="ce1" />
+                        <db:column db:name="email" db:style-name="co1" db:default-cell-style-name="ce1" />
+                        <db:column db:name="industry" db:style-name="co1" db:default-cell-style-name="ce1" />
+                        <db:column db:name="name" db:style-name="co1" db:default-cell-style-name="ce1" />
+                        <db:column db:name="phone" db:style-name="co1" db:default-cell-style-name="ce1" />
+                        <db:column db:name="sub-industry" db:style-name="co1" db:default-cell-style-name="ce1" />
+                        <db:column db:name="website" db:style-name="co1" db:default-cell-style-name="ce1" />
+                    </db:columns>
+                </db:table-representation>
+                <db:table-representation db:name="contact" />
+                <db:table-representation db:name="employee">
+                    <db:columns>
+                        <db:column db:name="ID" db:style-name="co1" db:default-cell-style-name="ce1" />
+                        <db:column db:name="department" db:style-name="co1" db:default-cell-style-name="ce1" />
+                        <db:column db:name="email" db:style-name="co1" db:default-cell-style-name="ce1" />
+                        <db:column db:name="employee_number" db:style-name="co1" db:default-cell-style-name="ce1" />
+                        <db:column db:name="name" db:style-name="co1" db:default-cell-style-name="ce1" />
+                        <db:column db:name="phone" db:style-name="co1" db:default-cell-style-name="ce1" />
+                        <db:column db:name="title" db:style-name="co1" db:default-cell-style-name="ce1" />
+                    </db:columns>
+                </db:table-representation>
+                <db:table-representation db:name="lead" />
+                <db:table-representation db:name="status" />
+            </db:table-representations>
+        </office:database>
+    </office:body>
+</office:document-content>
