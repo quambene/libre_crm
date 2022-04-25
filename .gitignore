@@ -1,3 +1,11 @@
 *.odb.lck
 *.odb
 *.zip
+
+# Environment
+**/.env
+
+# Keys
+**/*.jks
+**/*.p8
+**/*.pem
