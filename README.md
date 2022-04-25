@@ -29,7 +29,7 @@ The forms for CRUD access on the database are created in LibreOffice Base and sa
 
 ## Database
 
-Currently, the database is an embedded HSQLDB. In future releases, the embedded databases is replaced by an external database, like Postgres or Firebird. In this split database architecture, the database is separated from the frontend (i.e. forms, reports, macros, etc.).
+Currently, the database is an embedded HSQLDB. In future releases, the embedded database is replaced by an external database, like Postgres or Firebird. In this split database architecture, the database is separated from the frontend (i.e. forms, reports, macros, etc.).
 
 ## Data model
 
