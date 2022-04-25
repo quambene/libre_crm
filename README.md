@@ -45,8 +45,8 @@ The 6-state lead workflow is based on the following Kanban-style (Todo, Doing, D
 1. Doing - cold
 1. Doing - warm
 1. Doing - hot
-1. Done - rejected
 1. Done - closed
+1. Done - rejected
 
 The Kanban status *Doing* is subdivided into *cold*, *warm*, and *hot* leads which corresponds to
 
