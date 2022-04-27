@@ -4,10 +4,15 @@ LibreCRM is a customer relationship management (CRM) system based on LibreOffice
 
 ![lead form](assets/lead_form.png)
 
+- [Requirements](#requirements)
 - [Usage](#usage)
 - [Forms](#forms)
 - [Database](#database)
 - [Data model](#data-model)
+
+## Requirements
+
+You need to have LibreOffice installed on your system.
 
 ## Usage
 
