@@ -1,6 +1,10 @@
 *.odb.lck
 *.odb
 *.zip
+tmp
+releases
+src/odb/database/backup
+src/odb/database/data
 
 # Environment
 **/.env
