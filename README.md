@@ -9,6 +9,8 @@ LibreCRM is a customer relationship management (CRM) system based on LibreOffice
 - [Forms](#forms)
 - [Database](#database)
 - [Data model](#data-model)
+- [Install from source](#install-from-source)
+- [Extract xml files from odb file](#extract-xml-files-from-odb-file)
 
 ## Requirements
 
@@ -62,3 +64,23 @@ The Kanban status *Doing* is subdivided into *cold*, *warm*, and *hot* leads whi
 in sales terminology.
 
 The workflow is either finished with a success (*Done - closed*) or failure (*Done - rejected*).
+
+## Install from source
+
+``` bash
+# Clone github repository
+git clone git@github.com:quambene/libre_crm.git
+cd libre_crm
+
+# Build and install libre_crm.odt file
+./install.sh
+```
+
+## Extract xml files from odb file
+
+``` bash
+cd libre_crm
+
+# Extracts xml files to src/odb
+./extract.sh
+```
