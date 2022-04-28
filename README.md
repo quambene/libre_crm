@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD033 -->
+
 # LibreCRM
 
 LibreCRM is a customer relationship management (CRM) system based on LibreOffice Base, combining the flexibility and agility of spreadsheets with the consistency and scalability of databases.
@@ -40,11 +42,11 @@ The forms for CRUD access on the database are created in LibreOffice Base and sa
 
 ### Contact management
 
-![contact form](assets/contact_form.png)
+<img src="assets/contact_form.png" alt="contact form" width="550"/>
 
 ### Account management
 
-![company form](assets/company_form.png)
+<img src="assets/company_form.png" alt="company form" width="350"/>
 
 ## Database
 
