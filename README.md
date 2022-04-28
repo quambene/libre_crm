@@ -20,7 +20,7 @@ You need to have LibreOffice installed on your system.
 
 ## Usage
 
-1. Download the latest release as a `odb` file [here](https://github.com/quambene/libre_crm/releases).
+1. Download the latest release as an `odb` file [here](https://github.com/quambene/libre_crm/releases).
 2. Launch the `libre_crm.odb` file by double-clicking, or use the command line
 
     ``` bash
