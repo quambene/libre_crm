@@ -10,7 +10,7 @@ LibreCRM is a customer relationship management (CRM) system based on LibreOffice
 - [Database](#database)
 - [Data model](#data-model)
 - [Install from source](#install-from-source)
-- [Extract xml files from odb file](#extract-xml-files-from-odb-file)
+- [Extract odb file](#extract-odb-file)
 
 ## Requirements
 
@@ -34,6 +34,18 @@ You need to have LibreOffice installed on your system.
 
 The forms for CRUD access on the database are created in LibreOffice Base and saved in the `libre_crm.odb` file.
 
+### Lead management
+
+![lead form](assets/lead_form.png)
+
+### Contact management
+
+![contact form](assets/contact_form.png)
+
+### Account management
+
+![company form](assets/company_form.png)
+
 ## Database
 
 Currently, the database is an embedded HSQLDB. In future releases, the embedded database is replaced by an external database, like Postgres or Firebird. In this split database architecture, the database is separated from the frontend (i.e. forms, reports, macros, etc.).
@@ -42,7 +54,7 @@ Currently, the database is an embedded HSQLDB. In future releases, the embedded 
 
 ![data model](assets/data_model.png)
 
-Customer relationship management in LibreCRM is based on a simple data model with the `lead` table as the centerpiece. A lead has foreign key relationships with the `company`, `contact`, `employee`, and `status` table.
+Customer relationship management in LibreCRM is based on a simple data model with the `lead` table in its center. A lead has foreign key relationships with the `company`, `contact`, `employee`, `product`, and `status` table.
 
 Companies comprise private (business entities, financial entities, nonprofit organizations) and public entities (government organizations).
 
@@ -72,15 +84,17 @@ The workflow is either finished with a success (*Done - closed*) or failure (*Do
 git clone git@github.com:quambene/libre_crm.git
 cd libre_crm
 
-# Build and install libre_crm.odt file
+# Build and install libre_crm.odb file from src/odb
 ./install.sh
 ```
 
-## Extract xml files from odb file
+You can find the generated `libre_crm.odb` file in the current directory.
+
+## Extract odb file
 
 ``` bash
 cd libre_crm
 
-# Extracts xml files to src/odb
+# Extract source files from libre_crm.odb to src/odb
 ./extract.sh
 ```
