@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<office:document-settings xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:db="urn:oasis:names:tc:opendocument:xmlns:database:1.0" xmlns:svg="http://www.w3.org/2000/svg" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" office:version="1.3">
+    <office:settings>
+        <config:config-item-set config:name="ooo:view-settings">
+            <config:config-item-set config:name="Queries">
+                <config:config-item-set config:name="company_query">
+                    <config:config-item config:name="VisibleRows" config:type="int">1024</config:config-item>
+                    <config:config-item config:name="SplitterPosition" config:type="int">862</config:config-item>
+                </config:config-item-set>
+                <config:config-item-set config:name="contact_query">
+                    <config:config-item config:name="VisibleRows" config:type="int">1024</config:config-item>
+                    <config:config-item config:name="SplitterPosition" config:type="int">853</config:config-item>
+                </config:config-item-set>
+                <config:config-item-set config:name="employee_query">
+                    <config:config-item config:name="VisibleRows" config:type="int">1024</config:config-item>
+                    <config:config-item config:name="SplitterPosition" config:type="int">862</config:config-item>
+                </config:config-item-set>
+                <config:config-item-set config:name="lead_query">
+                    <config:config-item config:name="VisibleRows" config:type="int">1024</config:config-item>
+                    <config:config-item config:name="SplitterPosition" config:type="int">727</config:config-item>
+                </config:config-item-set>
+                <config:config-item-set config:name="product_query">
+                    <config:config-item config:name="VisibleRows" config:type="int">1024</config:config-item>
+                    <config:config-item config:name="SplitterPosition" config:type="int">862</config:config-item>
+                </config:config-item-set>
+            </config:config-item-set>
+        </config:config-item-set>
+        <config:config-item-set config:name="ooo:configuration-settings">
+            <config:config-item-set config:name="layout-settings">
+                <config:config-item-set config:name="Tables">
+                    <config:config-item-set config:name="Table6">
+                        <config:config-item config:name="ShowAll" config:type="boolean">false</config:config-item>
+                        <config:config-item config:name="WindowHeight" config:type="int">231</config:config-item>
+                        <config:config-item config:name="WindowWidth" config:type="int">163</config:config-item>
+                        <config:config-item config:name="WindowLeft" config:type="int">564</config:config-item>
+                        <config:config-item config:name="WindowTop" config:type="int">287</config:config-item>
+                        <config:config-item config:name="WindowName" config:type="string">employee</config:config-item>
+                        <config:config-item config:name="TableName" config:type="string">employee</config:config-item>
+                        <config:config-item config:name="ComposedName" config:type="string">employee</config:config-item>
+                    </config:config-item-set>
+                    <config:config-item-set config:name="Table5">
+                        <config:config-item config:name="ShowAll" config:type="boolean">false</config:config-item>
+                        <config:config-item config:name="WindowHeight" config:type="int">252</config:config-item>
+                        <config:config-item config:name="WindowWidth" config:type="int">144</config:config-item>
+                        <config:config-item config:name="WindowLeft" config:type="int">1139</config:config-item>
+                        <config:config-item config:name="WindowTop" config:type="int">456</config:config-item>
+                        <config:config-item config:name="WindowName" config:type="string">contact</config:config-item>
+                        <config:config-item config:name="TableName" config:type="string">contact</config:config-item>
+                        <config:config-item config:name="ComposedName" config:type="string">contact</config:config-item>
+                    </config:config-item-set>
+                    <config:config-item-set config:name="Table4">
+                        <config:config-item config:name="ShowAll" config:type="boolean">false</config:config-item>
+                        <config:config-item config:name="WindowHeight" config:type="int">235</config:config-item>
+                        <config:config-item config:name="WindowWidth" config:type="int">134</config:config-item>
+                        <config:config-item config:name="WindowLeft" config:type="int">840</config:config-item>
+                        <config:config-item config:name="WindowTop" config:type="int">202</config:config-item>
+                        <config:config-item config:name="WindowName" config:type="string">lead</config:config-item>
+                        <config:config-item config:name="TableName" config:type="string">lead</config:config-item>
+                        <config:config-item config:name="ComposedName" config:type="string">lead</config:config-item>
+                    </config:config-item-set>
+                    <config:config-item-set config:name="Table3">
+                        <config:config-item config:name="ShowAll" config:type="boolean">false</config:config-item>
+                        <config:config-item config:name="WindowHeight" config:type="int">120</config:config-item>
+                        <config:config-item config:name="WindowWidth" config:type="int">120</config:config-item>
+                        <config:config-item config:name="WindowLeft" config:type="int">587</config:config-item>
+                        <config:config-item config:name="WindowTop" config:type="int">91</config:config-item>
+                        <config:config-item config:name="WindowName" config:type="string">status</config:config-item>
+                        <config:config-item config:name="TableName" config:type="string">status</config:config-item>
+                        <config:config-item config:name="ComposedName" config:type="string">status</config:config-item>
+                    </config:config-item-set>
+                    <config:config-item-set config:name="Table2">
+                        <config:config-item config:name="ShowAll" config:type="boolean">false</config:config-item>
+                        <config:config-item config:name="WindowHeight" config:type="int">238</config:config-item>
+                        <config:config-item config:name="WindowWidth" config:type="int">148</config:config-item>
+                        <config:config-item config:name="WindowLeft" config:type="int">1403</config:config-item>
+                        <config:config-item config:name="WindowTop" config:type="int">94</config:config-item>
+                        <config:config-item config:name="WindowName" config:type="string">company</config:config-item>
+                        <config:config-item config:name="TableName" config:type="string">company</config:config-item>
+                        <config:config-item config:name="ComposedName" config:type="string">company</config:config-item>
+                    </config:config-item-set>
+                    <config:config-item-set config:name="Table1">
+                        <config:config-item config:name="ShowAll" config:type="boolean">false</config:config-item>
+                        <config:config-item config:name="WindowHeight" config:type="int">120</config:config-item>
+                        <config:config-item config:name="WindowWidth" config:type="int">120</config:config-item>
+                        <config:config-item config:name="WindowLeft" config:type="int">581</config:config-item>
+                        <config:config-item config:name="WindowTop" config:type="int">566</config:config-item>
+                        <config:config-item config:name="WindowName" config:type="string">product</config:config-item>
+                        <config:config-item config:name="TableName" config:type="string">product</config:config-item>
+                        <config:config-item config:name="ComposedName" config:type="string">product</config:config-item>
+                    </config:config-item-set>
+                </config:config-item-set>
+            </config:config-item-set>
+        </config:config-item-set>
+    </office:settings>
+</office:document-settings>
