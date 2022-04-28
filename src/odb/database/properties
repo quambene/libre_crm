@@ -1,0 +1,18 @@
+#HSQL Database Engine 1.8.0.10
+#Thu Apr 28 00:50:40 CEST 2022
+hsqldb.cache_version=1.7.0
+sql.enforce_strict_size=true
+hsqldb.compatible_version=1.8.0
+hsqldb.lock_file=true
+hsqldb.cache_scale=13
+hsqldb.nio_data_file=false
+version=1.8.0
+runtime.gc_interval=0
+readonly=false
+hsqldb.cache_file_scale=1
+hsqldb.cache_size_scale=8
+hsqldb.log_size=10
+hsqldb.script_format=0
+hsqldb.default_table_type=cached
+hsqldb.original_version=1.8.0
+modified=no

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest:manifest xmlns:manifest="urn:oasis:names:tc:opendocument:xmlns:manifest:1.0" manifest:version="1.3" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0">
+    <manifest:file-entry manifest:full-path="/" manifest:version="1.3" manifest:media-type="application/vnd.oasis.opendocument.base" />
+    <manifest:file-entry manifest:full-path="settings.xml" manifest:media-type="text/xml" />
+    <manifest:file-entry manifest:full-path="forms/Obj101/content.xml" manifest:media-type="text/xml" />
+    <manifest:file-entry manifest:full-path="forms/Obj101/settings.xml" manifest:media-type="text/xml" />
+    <manifest:file-entry manifest:full-path="forms/Obj101/styles.xml" manifest:media-type="text/xml" />
+    <manifest:file-entry manifest:full-path="forms/Obj101/Configurations2/" manifest:media-type="application/vnd.sun.xml.ui.configuration" />
+    <manifest:file-entry manifest:full-path="forms/Obj101/meta.xml" manifest:media-type="text/xml" />
+    <manifest:file-entry manifest:full-path="forms/Obj101/manifest.rdf" manifest:media-type="application/rdf+xml" />
+    <manifest:file-entry manifest:full-path="forms/Obj101/" manifest:version="1.2" manifest:media-type="application/vnd.oasis.opendocument.text" />
+    <manifest:file-entry manifest:full-path="forms/Obj82/manifest.rdf" manifest:media-type="application/rdf+xml" />
+    <manifest:file-entry manifest:full-path="forms/Obj82/meta.xml" manifest:media-type="text/xml" />
+    <manifest:file-entry manifest:full-path="forms/Obj82/Configurations2/" manifest:media-type="application/vnd.sun.xml.ui.configuration" />
+    <manifest:file-entry manifest:full-path="forms/Obj82/content.xml" manifest:media-type="text/xml" />
+    <manifest:file-entry manifest:full-path="forms/Obj82/settings.xml" manifest:media-type="text/xml" />
+    <manifest:file-entry manifest:full-path="forms/Obj82/styles.xml" manifest:media-type="text/xml" />
+    <manifest:file-entry manifest:full-path="forms/Obj82/" manifest:version="1.2" manifest:media-type="application/vnd.oasis.opendocument.text" />
+    <manifest:file-entry manifest:full-path="forms/Obj103/settings.xml" manifest:media-type="text/xml" />
+    <manifest:file-entry manifest:full-path="forms/Obj103/content.xml" manifest:media-type="text/xml" />
+    <manifest:file-entry manifest:full-path="forms/Obj103/manifest.rdf" manifest:media-type="application/rdf+xml" />
+    <manifest:file-entry manifest:full-path="forms/Obj103/meta.xml" manifest:media-type="text/xml" />
+    <manifest:file-entry manifest:full-path="forms/Obj103/styles.xml" manifest:media-type="text/xml" />
+    <manifest:file-entry manifest:full-path="forms/Obj103/Configurations2/" manifest:media-type="application/vnd.sun.xml.ui.configuration" />
+    <manifest:file-entry manifest:full-path="forms/Obj103/" manifest:version="1.2" manifest:media-type="application/vnd.oasis.opendocument.text" />
+    <manifest:file-entry manifest:full-path="forms/Obj83/settings.xml" manifest:media-type="text/xml" />
+    <manifest:file-entry manifest:full-path="forms/Obj83/styles.xml" manifest:media-type="text/xml" />
+    <manifest:file-entry manifest:full-path="forms/Obj83/meta.xml" manifest:media-type="text/xml" />
+    <manifest:file-entry manifest:full-path="forms/Obj83/manifest.rdf" manifest:media-type="application/rdf+xml" />
+    <manifest:file-entry manifest:full-path="forms/Obj83/content.xml" manifest:media-type="text/xml" />
+    <manifest:file-entry manifest:full-path="forms/Obj83/Configurations2/" manifest:media-type="application/vnd.sun.xml.ui.configuration" />
+    <manifest:file-entry manifest:full-path="forms/Obj83/" manifest:version="1.2" manifest:media-type="application/vnd.oasis.opendocument.text" />
+    <manifest:file-entry manifest:full-path="database/script" manifest:media-type="" />
+    <manifest:file-entry manifest:full-path="database/properties" manifest:media-type="" />
+    <manifest:file-entry manifest:full-path="database/backup" manifest:media-type="" />
+    <manifest:file-entry manifest:full-path="database/data" manifest:media-type="" />
+    <manifest:file-entry manifest:full-path="content.xml" manifest:media-type="text/xml" />
+    <manifest:file-entry manifest:full-path="Configurations2/" manifest:media-type="application/vnd.sun.xml.ui.configuration" />
+</manifest:manifest>
